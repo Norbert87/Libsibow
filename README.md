@@ -29,13 +29,14 @@ Quick start
 --------------------------------------------------------------------------------
 Let us assume that the root directory of libsibow is named ‘rootdir’.
 Open a terminal, and type in the command line the following instructions:
+```
 1) cd <rootdir>
 2) mkdir build
 3) cd build
 4) cmake ..
 5) make
 6) make install   (You might need to do sudo if your are in an Unix-like system)
-
+```
 If everything went well, both the library and test programs should have been
 created into <rootdir>/build subdirectories.
 
